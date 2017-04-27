@@ -5,7 +5,7 @@ package cz.zemko.math;
  *
  * @author Zoltan Zemko
  */
-public class Subtraction {
+public final class Subtraction {
 
     /**
      * Compute subtraction of two values.
