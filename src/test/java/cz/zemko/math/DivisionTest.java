@@ -4,6 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Unit tests for testing {@link Division}.
+ *
+ * @author Zoltan Zemko
+ */
 public class DivisionTest {
 
     @Test
