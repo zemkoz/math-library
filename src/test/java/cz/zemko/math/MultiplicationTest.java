@@ -4,6 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Unit tests for testing {@link Multiplication}.
+ *
+ * @author Zoltan Zemko
+ */
 public class MultiplicationTest {
 
     @Test
