@@ -29,4 +29,15 @@ public class DivisionTest {
         long result = Division.compute(-16, -4);
         assertEquals(4, result);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testCompute_divisionByZero() {
+        Division.compute(5, 0);
+    }
+
+    @Test
+    public void testCompute_zeroDividedByNonZeroNumber() {
+        int result = Division.compute(0, 5);
+        assertEquals(0, result);
+    }
 }
